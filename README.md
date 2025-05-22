@@ -6,7 +6,7 @@
 
 Ecommerce using React 
 
-## Características Principales
+## Features
 - **Interactive Catalog** File with test data 
 - **Persistent cart** Using UseRef 
 - **Favorite sistem** with useRef
