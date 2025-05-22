@@ -14,11 +14,7 @@ Ecommerce using React
 - **Discounts** Implemented for a future database
 - **Dynamic SearchBar** With favorite filter 
 - **Rating**  
-<<<<<<< HEAD
 - **Responsive design** mobile y desktop
-=======
-- **Responsive design** mobile and desktop
->>>>>>> edefaef5a5a9d6c2e36a442d8e55b6ef62215def
 
 ## Used Tech
 
@@ -49,6 +45,4 @@ src/
 │   └── CartPage/          
 <<<<<<< HEAD
 └── stories/              
-=======
-└── stories/              
->>>>>>> edefaef5a5a9d6c2e36a442d8e55b6ef62215def
+
