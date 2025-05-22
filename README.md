@@ -1,4 +1,4 @@
-#  Librería Online - E-commerce de Libros React
+# Online Library with REACT
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue.svg)
 ![Storybook](https://img.shields.io/badge/Storybook-7.0.0-FF4785.svg)
@@ -13,7 +13,7 @@ Ecommerce using React
 - **Discounts** Implemented for a future database
 - **Dynamic SearchBar** With favorite filter 
 - **Rating**  
-- **Responsive design** mobile y desktop
+- **Responsive design** mobile and desktop
 
 ## Used Tech
 
