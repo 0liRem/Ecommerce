@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-#  Librería Online - E-commerce de Libros React
-=======
+
 # Online Library with REACT
->>>>>>> edefaef5a5a9d6c2e36a442d8e55b6ef62215def
 
 ![React](https://img.shields.io/badge/React-18.2.0-blue.svg)
 ![Storybook](https://img.shields.io/badge/Storybook-7.0.0-FF4785.svg)
