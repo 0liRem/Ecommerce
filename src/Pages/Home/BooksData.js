@@ -1,0 +1,108 @@
+const booksData = [
+  {
+    id: '1',
+    title: 'Watanare volumen 6',
+    author: 'Mikami Teren',
+    description: '6to volumen de WATANARE. Ajisai y Renako escaparon de casa cuando una invitada inesperada llegó a su ryokan.',
+    price: 14.99,
+    originalPrice: 19.99,
+    discount: 30,
+    image: 'https://external-preview.redd.it/official-cover-of-watanare-manga-vol-6-featuring-best-girl-v0-DoVxsH2292QTwo_HBLxCmzl4eQm6AmAMOeiosm42I0M.jpg?auto=webp&s=1ea9da40893baf052d1818909906bd1861ab94a7',
+    genre: 'Seinen',
+    pages: 52,
+    rating: 4
+  },
+  {
+    id: '2',
+    title: 'Attack on Titan volumen 1',
+    author: 'Hajime Isayama',
+    description: 'La humanidad está al borde de la extinción debido a los Titanes. Eren Jaeger y sus amigos se unen a la lucha para sobrevivir.',
+    price: 15.50,
+    originalPrice: 20.00,
+    discount: 22,
+    image: 'https://m.media-amazon.com/images/I/81qPzeEO5IL._AC_UF1000,1000_QL80_.jpg',
+    genre: 'Ciencia ficción',
+    pages: 35,
+    rating: 4
+  },
+  {
+    id: '3',
+    title: 'Chainsaw Man volumen 1',
+    author: 'Tatsuki Fujimoto',
+    description: 'Denji, un cazador de demonios pobre, se fusiona con su mascota demoníaca, Pochita, y se convierte en Chainsaw Man.',
+    price: 12.99,
+    originalPrice: 16.99,
+    discount: 23,
+    image: 'https://meowmeowguatemala.com/wp-content/uploads/2023/02/Chainsawman-vol.1.jpg',
+    genre: 'Shonen',
+    pages: 40,
+    rating: 5
+  },
+  {
+    id: '4',
+    title: 'Berserk volumen 1',
+    author: 'Kentaro Miura',
+    description: 'Guts, un mercenario solitario, lucha en un mundo oscuro y brutal mientras busca venganza contra su antiguo amigo Griffith.',
+    price: 18.75,
+    originalPrice: 24.99,
+    discount: 0,
+    image: 'https://m.media-amazon.com/images/I/91rdTtLWAHL._SL1500_.jpg',
+    genre: 'Seinen',
+    pages: 48,
+    rating: 5
+  },
+  {
+    id: '5',
+    title: 'Jujutsu Kaisen volumen 1',
+    author: 'Gege Akutami',
+    description: 'Yuji Itadori se convierte en el anfitrión de Sukuna, el Rey de las Maldiciones, y se une a los hechiceros para combatir espíritus malditos.',
+    price: 13.25,
+    originalPrice: 17.99,
+    discount: 26,
+    image: 'https://img.pacifiko.com/PROD/resize/1/500x500/N2YwNDlhMz.jpg',
+    genre: 'Shonen',
+    pages: 38,
+    rating: 4
+  },
+  {
+    id: '6',
+    title: 'Death Note volumen 1',
+    author: 'Tsugumi Ohba, Takeshi Obata',
+    description: 'Light Yagami encuentra un cuaderno sobrenatural que le permite matar a cualquiera cuyo nombre escriba en él.',
+    price: 11.99,
+    originalPrice: 15.99,
+    discount: 25,
+    image: 'https://meowmeowguatemala.com/wp-content/uploads/2023/03/Death-note-vol.01.webp',
+    genre: 'Suspenso psicológico',
+    pages: 45,
+    rating: 5
+  },
+  {
+    id: '7',
+    title: 'Tokyo Revengers volumen 1',
+    author: 'Ken Wakui',
+    description: 'Takemichi viaja en el tiempo para salvar a su exnovia y cambiar el destino de su pandilla.',
+    price: 14.50,
+    originalPrice: 18.99,
+    discount: 23,
+    image: 'https://i0.wp.com/meowmeowguatemala.com/wp-content/uploads/2023/03/Tokyo-revengers-vol.-1.jpeg?fit=1200%2C1826&ssl=1',
+    genre: 'Shonen',
+    pages: 42,
+    rating: 4
+  },
+  {
+    id: '8',
+    title: 'Solo Leveling volumen 1',
+    author: 'Chugong, Dubu (Redice Studio)',
+    description: 'Sung Jin-Woo, el cazador más débil, obtiene un poder único que le permite subir de nivel como en un videojuego.',
+    price: 16.99,
+    originalPrice: 21.99,
+    discount: 22,
+    image: 'https://img.pacifiko.com/PROD/resize/1/500x500/NzFkOWU1MD.jpg',
+    genre: 'Acción',
+    pages: 50,
+    rating: 5
+  }
+];
+
+export default booksData;

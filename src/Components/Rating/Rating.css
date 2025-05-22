@@ -1,0 +1,31 @@
+.rating-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.rating-star {
+  color: #ddd;
+  transition: color 0.2s;
+}
+
+.rating-star.filled {
+  color: #ffc107;
+}
+
+.rating-star.editable {
+  cursor: pointer;
+}
+
+.rating-star.editable:hover {
+  color: #ffc107;
+  transform: scale(1.1);
+}
+
+.rating-value {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
