@@ -3,53 +3,43 @@
 ![React](https://img.shields.io/badge/React-18.2.0-blue.svg)
 ![Storybook](https://img.shields.io/badge/Storybook-7.0.0-FF4785.svg)
 ![React Router](https://img.shields.io/badge/React_Router-6.14.2-CA4245.svg)
-![Context API](https://img.shields.io/badge/Context_API-Yes-yellow.svg)
 
-Un e-commerce de libros completo desarrollado con React que incluye carrito de compras, favoritos y sistema de recomendaciones inteligentes.
-
-## 🖥️ Capturas de Pantalla
-
-| Vista Principal | Detalles de Libro | Carrito |
-|-----------------|------------------|---------|
-| ![Home](screenshots/home.png) | ![Details](screenshots/details.png) | ![Cart](screenshots/cart.png) |
+Ecommerce using React 
 
 ## Características Principales
+- **Interactive Catalog** File with test data 
+- **Persistent cart** Using UseRef 
+- **Favorite sistem** with useRef
+- **Discounts** Implemented for a future database
+- **Dynamic SearchBar** With favorite filter 
+- **Rating**  
+- **Responsive design** mobile y desktop
 
-- **Catálogo interactivo** con 10+ libros de ejemplo
-- **Carrito persistente** (guarda en localStorage)
-- **Sistema de favoritos** con useRef
-- **Descuentos aleatorios** al iniciar la aplicación
-- **Búsqueda en tiempo real** con filtro por favoritos
-- **Rating visual** por estrellas (1-5)
-- **Recomendaciones inteligentes** basadas en historial
-- **Responsive design** para móviles y desktop
+## Used Tech
 
-##  Tecnologías Utilizadas
-
-| Tecnología | Uso |
+| Tech | Use |
 |------------|-----|
-| React 18 | Core de la aplicación |
-| React Router 6 | Navegación entre páginas |
-| Context API | Estado global |
-| useReducer + useMemo | Gestión de estado optimizada |
-| CSS Modules | Estilos componentizados |
-| Storybook 7 | Documentación de componentes |
-| PropTypes | Validación de props |
+| React 18 | Core |
+| React Router 6 | Nav |
+| Context API | Global Status |
+| useReducer + useMemo | Optimized |
+| Storybook 7 | Component documentation |
+| PropTypes | Props validation |
 
-##  Estructura del Proyecto
+##  Structure
 
 ```bash
 src/
 ├── components/
-│   ├── BookCard/          # Tarjeta de libro con descuentos
-│   ├── Cart/              # Componentes del carrito
-│   ├── Rating/            # Sistema de 5 estrellas
-│   ├── SearchBar/         # Búsqueda con filtros
-│   └── Recommendations/   # Libros recomendados
+│   ├── BookCard/        
+│   ├── Cart/              
+│   ├── Rating/         
+│   ├── SearchBar/        
+│   └── Recommendations/   
 ├── context/
-│   └── CartContext.js     # Lógica global del e-commerce
+│   └── CartContext.js    
 ├── pages/
-│   ├── Home/              # Vista principal
-│   ├── BookDetails/       # Página de detalles
-│   └── CartPage/          # Checkout del carrito
-└── stories/              # Documentación de componentes
+│   ├── Home/              
+│   ├── BookDetails/      
+│   └── CartPage/          
+└── stories/              
