@@ -43,6 +43,5 @@ src/
 │   ├── Home/              
 │   ├── BookDetails/      
 │   └── CartPage/          
-<<<<<<< HEAD
 └── stories/              
 
