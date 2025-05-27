@@ -102,7 +102,34 @@ const booksData = [
     genre: 'Acción',
     pages: 50,
     rating: 5
+  },
+    {
+    id: '9',
+    title: 'This Monster Wants to Eat Me vol 10',
+    author: 'Naekawa Sai',
+    description: 'Hinako, una estudiante de preparatoria, lleva una vida tranquila en un pueblo costero, pero se siente algo alejada de sus amigos durante los meses de verano, cuando recuerda la muerte de su familia hace años. Un día, conoce a Shiori, una chica misteriosa que le recuerda al océano, especialmente por sus ojos azules translúcidos. Shiori pronto revela que en realidad es una sirena que lleva mucho tiempo buscándola.',
+    price: 13.5,
+    originalPrice: 13.5,
+    discount:0,
+    image: 'https://www.nautiljon.com/images/manga_volumes/12/46/this_monster_wants_to_eat_me_101018764.webp?0',
+    genre: 'Misterio',
+    pages: 53,
+    rating: 4.5
+  },
+    {
+    id: '10',
+    title: 'Shy vol 4',
+    author: 'Miki Bukimi',
+    description: 'A mediados del siglo XXI, el mundo estaba al borde de la Tercera Guerra Mundial. Pero superhéroes de todo el mundo aparecieron y ayudaron a instaurar una era de paz. Superada la crisis, los Héroes regresaron a sus países de origen, donde ahora ayudan con los asuntos domésticos.',
+    price:20.00,
+    originalPrice: 20.00,
+    discount: 0,
+    image: 'https://i5.walmartimages.com/seo/Shy-Shy-Vol-4-Series-4-Paperback-9781975352431_e20dbb01-664a-478f-a07e-e89e29c92556.26079f142a2786aca7e2a2a0618b9ff5.jpeg',
+    genre: 'Acción',
+    pages: 52,
+    rating: 4.0
   }
+  
 ];
 
 export default booksData;
