@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom'; // Agregar esta importación
 import { CartContext } from '../../Context/Cartcontext';
 import Rating from '../Rating/Rating';
 import './BookCard.css';
@@ -7,6 +8,7 @@ import './BookCard.css';
 /**@param options  */
 const BookCard = ({ book }) => {
   const { addToCart, toggleFavorite, favorites } = useContext(CartContext);
+  const navigate = useNavigate(); // Agregar este hook
   const isFavorite = favorites.some(fav => fav.id === book.id);
 
   const handleAddToCart = () => {
@@ -17,6 +19,11 @@ const BookCard = ({ book }) => {
     toggleFavorite(book);
   };
 
+  // Función para navegar a los detalles del libro
+  const handleImageClick = () => {
+    navigate(`/book/${book.id}`);
+  };
+
   return (
     <div className="book-card">
       <div className="book-image-container">
@@ -24,7 +31,8 @@ const BookCard = ({ book }) => {
           src={book.image} 
           alt={book.title} 
           className="book-image"
-          onClick={() => window.location.href = `/book/${book.id}`}
+          onClick={handleImageClick} // Usar la nueva función
+          style={{ cursor: 'pointer' }} // Agregar cursor pointer para UX
         />
       </div>
       
@@ -34,7 +42,6 @@ const BookCard = ({ book }) => {
         
         <div className="book-rating">
           <Rating value={book.rating} />
-          
         </div>
 
         <div className="book-meta">
